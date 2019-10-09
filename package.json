@@ -1,7 +1,7 @@
 {
-  "name": "new-barber-shop",
+  "name": "react-webpac-boilerplate",
   "version": "1.0.0",
-  "description": "new version of bills barber shop",
+  "description": "Basic setup for React, bundled using Webpack, and compiled with Babel",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "G Austin Wark",
+  "author": "Austin",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -18,6 +18,7 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
     "react-hot-loader": "^4.12.14",
+    "sass": "^1.23.0",
     "style-loader": "^1.0.0",
     "url-loader": "^2.1.0",
     "webpack": "^4.41.0",
@@ -32,7 +33,10 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
     "react": "^16.10.1",
-    "react-dom": "^16.10.1"
+    "react-dom": "^16.10.1",
+    "react-loadable": "^5.5.0"
   }
 }
